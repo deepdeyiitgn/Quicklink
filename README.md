@@ -25,11 +25,11 @@
 
 **QuickLink** is a feature-complete, stable, and production-ready platform designed to make sharing information as seamless, secure, and efficient as possible. It provides a fast, reliable, and feature-rich suite to shorten URLs, generate dynamic QR codes, and engage with a community for everyone—from individuals sharing content with friends, to businesses engaging with customers on a global scale.
 
-**[➡️ Live Demo](https://quick-link-url-shortener.vercel.app/)**
+**[➡️ Live Demo](https://qlynk.vercel.app/)**
 
 ---
 
-**[🩷 Support](https://www.chatbase.co/z1dBVS3yYaFm-L9FJnbAT/help)**
+**[🩷 Support](https://qlynk.vercel.app/ai-chat)**
 
 ---
 
@@ -59,7 +59,8 @@
 
 ## ⚠️ Disclaimer 
 
-  * The Repo is Demo only, All Features Are not on Good Condition, if You Want The Project Main Files Then Contact Owner, [Email here!](mailto:team.deepdey@gmail.com) **[But We Are Currently Didnt Giving our Main Repo, So Dont Mail Us For this request because we are focusing currently on development of quicklink, Thank You!]**
+  * The Repo is Demo only, All Features Are not on Good Condition, if You Want The Project Main Files Then Contact Owner, [Email here!](mailto:team.deepdey@gmail.com)
+  *  **[But We Are Currently Didnt Giving our Main Repo, So Dont Mail Us For this request because we are focusing currently on development of quicklink, Thank You!]**
 
   ## 🩷 Download Windows App 
 
