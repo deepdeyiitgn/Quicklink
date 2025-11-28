@@ -61,7 +61,10 @@
 
   * The Repo is Demo only, All Features Are not on Good Condition, if You Want The Project Main Files Then Contact Owner, [Email here!](mailto:team.deepdey@gmail.com) **[But We Are Currently Didnt Giving our Main Repo, So Dont Mail Us For this request because we are focusing currently on development of quicklink, Thank You!]**
 
-    
+  ## 🩷 Download Windows App 
+
+  * We Have Now Our Windows Application for Quicklink 🎉! To Download our Quicklink Please Visit This Page And [Click Try Again Button](https://qlynk.vercel.app/thanks-for-downloading-our-app) To Download Our Application
+  
 ---
 
 
