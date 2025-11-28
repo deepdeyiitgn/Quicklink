@@ -1,0 +1,37 @@
+{
+  "name": "quicklink-url-shortener",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern, fast, and easy-to-use URL shortener.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mongodb": "^6.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "qr-code-styling": "^1.5.1",
+    "nodemailer": "^6.9.14",
+    "framer-motion": "^11.0.0",
+    "react-helmet": "^6.1.0",
+    "lucide-react": "^0.453.0",
+    "imagekit": "^5.0.1",
+    "imagekitio-react": "^4.1.0",
+    "@google/generative-ai": "^0.21.0",
+    "@google/genai": "^1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/nodemailer": "^6.4.15",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "@types/react-helmet": "^6.1.6",
+    "vite": "^5.2.10"
+  }
+}

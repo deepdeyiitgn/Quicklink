@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===================================================================================
+  🏷️ PROJECT: QuickLink - Fast & Secure URL Shortener, QR Generator & API
+  👨‍💻 AUTHOR: Deep Dey (Ceo,Dev,Founder)
+  🛡️ Helper: Google Gemini & ChatGPT
+  🌐 WEBSITE: https://qlynk.vercel.app
+  📅 CREATED: 2025
+  🧠 DESCRIPTION:
+      QuickLink is a secure, high-performance web application designed for 
+      shortening URLs, generating QR codes, and providing developers with 
+      easy-to-integrate API services. Built with simplicity, reliability, 
+      and speed in mind by Deep Dey.
+
+  ⚙️ TECHNOLOGY STACK:
+      - HTML, CSS, TypeScript
+      - Node.js / Express (Backend)
+      - Vercel (Deployment)
+      - JSON API Integration
+
+  📩 CONTACT:
+      ✉️ Email: thedeeparise@gmail.com
+      🔗 GitHub: https://github.com/deepdeyiitgn/QuickLink
+      🧾 License: All Rights Reserved © 2025 Deep Dey
+      💬 Instagram: https://www.instagram.com/deepdey.official/
+
+  ⚠️ LEGAL NOTICE:
+      This source code is the intellectual property of Deep Dey. 
+      Any unauthorized copying, modification, distribution, or use of 
+      this project in whole or in part without written permission is 
+      strictly prohibited and may result in legal action.
+
+===================================================================================
+-->
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- 🌍 Home -->
+  
+  <url>
+    <loc>https://qlynk.vercel.app/</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+    <!-- 🧭 Tool Pages -->
+  
+  <url>
+    <loc>https://qlynk.vercel.app/tools</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qlynk.vercel.app/pricing</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://qlynk.vercel.app/shortener</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://qlynk.vercel.app/qr-generator</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://qlynk.vercel.app/qr-scanner</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://qlynk.vercel.app/api-access</loc> 
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <!-- 📚 Features
+  -->
+  <url><loc>https://qlynk.vercel.app/features</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/url-shortener</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/qr-generator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/qr-scanner</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/api</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/dashboard</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/notifications</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/community-blog</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/shop</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/chat</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/security</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/support-system</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/system-status</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/ai-assistant</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  
+  <url><loc>https://qlynk.vercel.app/features/founder</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://qlynk.vercel.app/features/our-vision</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+    <!-- 📞 Info & Support -->
+
+
+  <url><loc>https://qlynk.vercel.app/chat</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://qlynk.vercel.app/notifications</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+
+    <!-- 💾 User Pages -->
+
+  <url><loc>https://qlynk.vercel.app/dashboard</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/history</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+
+    <!-- 📖 Blog Section -->
+  
+  <url><loc>https://qlynk.vercel.app/blog</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/blog/create</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://qlynk.vercel.app/wiki</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://qlynk.vercel.app/about</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+
+    <!-- 💝 Support & Shop -->
+  
+  <url><loc>https://qlynk.vercel.app/contact</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://qlynk.vercel.app/shop</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://qlynk.vercel.app/faq</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://qlynk.vercel.app/status</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://qlynk.vercel.app/donate</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/thanks-for-downloading-our-app</loc><changefreq>monthly</changefreq><priority>0.1</priority></url>
+
+    <!-- 📚 Documentation & Legal -->
+  
+  <url><loc>https://qlynk.vercel.app/Legal</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/cancellation</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/cookies</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://qlynk.vercel.app/copyright</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+
+  <url>
+
+      <!-- ⚠️ Error Page -->
+    
+    <loc>https://qlynk.vercel.app/404</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
+
+<!--
+===================================================================================
+  © 2025 Deep Dey | All Rights Reserved.
+  Project: QuickLink - Fast & Secure URL Shortener, QR Generator & API.
+  Website: https://qlynk.vercel.app
+  Maintainer: Deep Dey (Founder & Developer)
+  Do not copy, modify, or redistribute without prior consent.
+===================================================================================
+-->

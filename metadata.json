@@ -1,0 +1,7 @@
+{
+  "name": "QuickLink - Fast & Secure URL Shortener, QR Generator & API by Deep Dey",
+  "description": "QuickLink is a fast, secure, and developer-friendly platform for URL shortening and QR code generation. Use our powerful API to integrate link shortening into your apps and websites. Designed by Deep Dey for simplicity, performance, and reliability.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

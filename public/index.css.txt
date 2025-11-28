@@ -1,0 +1,218 @@
+/*
+===================================================================================
+  🏷️ PROJECT: QuickLink - Fast & Secure URL Shortener, QR Generator & API
+  👨‍💻 AUTHOR: Deep Dey (Ceo,Dev,Founder)
+  🛡️ Helper: Google Gemini & ChatGPT
+  🌐 WEBSITE: https://qlynk.vercel.app
+  📅 CREATED: 2025
+  🧠 DESCRIPTION:
+      QuickLink is a secure, high-performance web application designed for 
+      shortening URLs, generating QR codes, and providing developers with 
+      easy-to-integrate API services. Built with simplicity, reliability, 
+      and speed in mind by Deep Dey.
+
+  ⚙️ TECHNOLOGY STACK:
+      - HTML, CSS, TypeScript
+      - Node.js / Express (Backend)
+      - Vercel (Deployment)
+      - JSON API Integration
+
+  📩 CONTACT:
+      ✉️ Email: thedeeparise@gmail.com
+      🔗 GitHub: https://github.com/deepdeyiitgn/QuickLink
+      🧾 License: All Rights Reserved © 2025 Deep Dey
+      💬 Instagram: https://www.instagram.com/deepdey.official/
+
+  ⚠️ LEGAL NOTICE:
+      This source code is the intellectual property of Deep Dey. 
+      Any unauthorized copying, modification, distribution, or use of 
+      this project in whole or in part without written permission is 
+      strictly prohibited and may result in legal action.
+
+===================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Roboto+Slab:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-100 text-gray-800 dark:bg-brand-dark dark:text-brand-light font-sans m-0 overflow-x-hidden;
+    }
+}
+
+@layer components {
+    .gradient-bg {
+        @apply relative overflow-hidden;
+        background: radial-gradient(circle at 10% 20%, rgba(132, 108, 255, 0.1), transparent 50%),
+                    radial-gradient(circle at 90% 80%, rgba(0, 229, 255, 0.1), transparent 50%),
+                    #f0f2f5;
+    }
+
+    .dark .gradient-bg {
+        background: radial-gradient(circle at 10% 20%, rgba(132, 108, 255, 0.2), transparent 40%),
+                    radial-gradient(circle at 90% 80%, rgba(0, 229, 255, 0.2), transparent 40%),
+                    #0a0a1a;
+    }
+    
+    .glass-card {
+        @apply bg-white/70 dark:bg-brand-dark/60 backdrop-blur-md border border-black/10 dark:border-white/10 rounded-2xl;
+    }
+
+    .tool-card {
+        @apply block p-8 rounded-2xl text-center bg-white/70 dark:bg-brand-dark/60 border border-black/10 dark:border-white/10 transition-all duration-300 ease-in-out;
+    }
+    .tool-card:hover {
+        @apply -translate-y-1 bg-white dark:bg-brand-dark/80 border-brand-primary;
+    }
+
+    .contact-input {
+        @apply w-full bg-black/30 rounded-md border-white/20 text-white focus:ring-brand-primary;
+    }
+
+    .legal-text {
+        font-family: 'Roboto Slab', serif;
+    }
+    .prose-invert h1, .prose-invert h2, .prose-invert h3 { 
+        font-family: 'Inter', sans-serif; 
+    }
+    
+    .animate-aurora {
+        background: linear-gradient(70deg, theme('colors.brand-primary'), theme('colors.brand-secondary'), theme('colors.brand-primary'));
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: aurora-glow 4s linear infinite;
+    }
+    
+    .footer-glow {
+        text-shadow: 0 0 8px rgba(0, 229, 255, 0.5), 0 0 16px rgba(132, 108, 255, 0.3);
+        animation: subtle-pulse 5s infinite alternate;
+    }
+    
+    .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
+    .animate-fade-in-down { animation: fadeInDown 0.5s ease-out forwards; }
+    .animate-fade-in-up { animation: fadeInUp 0.5s ease-out forwards; animation-delay: 0.2s; opacity: 0; }
+    .animate-check-pop { animation: check-pop 0.5s ease-out; }
+}
+
+@keyframes aurora-glow { to { background-position: 200% center; } }
+@keyframes subtle-pulse { from { opacity: 0.8; } to { opacity: 1; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeInDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes check-pop {
+    0% { transform: scale(0.5); opacity: 0; }
+    70% { transform: scale(1.1); }
+    100% { transform: scale(1); opacity: 1; }
+}
+.animate-aurora {
+    background: linear-gradient(70deg, theme('colors.brand-primary'), theme('colors.brand-secondary'), theme('colors.brand-primary'));
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: aurora-glow 4s linear infinite;
+}
+
+@keyframes aurora-glow { 
+    to { 
+        background-position: 200% center; 
+    } 
+}
+
+/* Main glowing cursor */
+.cursor-main {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(45deg, #00ffff, #007bff, #ff00ff);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transition: transform 0.05s ease-out, opacity 0.3s ease;
+  z-index: 9999;
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px #00ffff, 0 0 16px #007bff;
+  }
+  50% {
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+  }
+}
+
+/* Small glowing particles following cursor */
+.cursor-dot {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, #00ffff 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+  animation: fadeTrail 0.8s ease-out forwards;
+  z-index: 9998;
+}
+
+@keyframes fadeTrail {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+}
+
+/* 
+Hide default cursor on desktop 
+body {
+  cursor: none !important;
+}
+
+Hide default cursor globally (only for desktop)
+@media (min-width: 768px) {
+  * {
+    cursor: none !important;
+  }
+}
+*/
+
+
+
+/* Mobile nav animation */
+
+@keyframes bounce-slight {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-bounce-slight {
+  animation: bounce-slight 0.4s ease;
+}
+
+/*
+===================================================================================
+  © 2025 Deep Dey | All Rights Reserved.
+  Project: QuickLink - Fast & Secure URL Shortener, QR Generator & API.
+  Website: https://qlynk.vercel.app
+  Maintainer: Deep Dey (Founder & Developer)
+  Do not copy, modify, or redistribute without prior consent.
+===================================================================================
+*/

@@ -1,0 +1,33 @@
+{
+  "framework": null,
+
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|yandex|baiduspider|duckduckbot|crawler|spider|bot)"
+        }
+      ],
+      "destination": "https://service.prerender.io/https://qlynk.vercel.app/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Prerender-Token",
+          "value": "OIqe1XXy6tOK9A2HQ8mR"
+        }
+      ]
+    }
+  ]
+}

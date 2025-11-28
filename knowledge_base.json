@@ -1,0 +1,241 @@
+{
+  "projectInfo": {
+    "name": "QuickLink",
+    "version": "2.5.0 (Stable)",
+    "releaseDate": "2025",
+    "creator": {
+      "name": "Deep Dey",
+      "role": "Founder & Lead Full Stack Developer",
+      "alias": "The Code Visionary",
+      "email": "thedeeparise@gmail.com",
+      "location": "Dharmanagar, Tripura, India",
+      "goals": [
+        "Crack JEE 2027 with top rank.",
+        "Join IIT Gandhinagar/Kanpur/Kharagpur  (Computer Science Department).",
+        "Build tech solutions that impact millions."
+      ],
+      "personalInterests": {
+        "gaming": "Former Minecraft Creator ('Tarzan The Gamer').",
+        "movies": ["Saiyaara", "Loveyatri", "Satyaprem Ki Katha", "Stree 2"],
+        "philosophy": "Believes in respect, equality, hard work + smart work, and absolute loyalty."
+      }
+    },
+    "website": "https://qlynk.vercel.app",
+    "description": "QuickLink is a high-performance, secure, and scalable URL shortening and QR code generation platform. Built from scratch by Deep Dey, it challenges industry giants like Bitly by offering premium features for free or at affordable one-time costs. It serves as a testament to the power of student-led innovation.",
+    "mission": "To democratize powerful link management tools for students, creators, and developers without recurring subscription traps.",
+    "techStack": {
+      "frontend": "React.js (v18), TypeScript, Tailwind CSS (for responsive UI)",
+      "backend": "Node.js, Express.js (Serverless Architecture via Vercel)",
+      "database": "MongoDB Atlas (NoSQL for high scalability)",
+      "authentication": "JWT (JSON Web Tokens) & Google OAuth 2.0",
+      "hosting": "Vercel Edge Network (Global CDN)",
+      "aiIntegration": "Google Gemini 1.5 Flash & 2.5 Flash-Lite (for Support Bot)"
+    }
+  },
+  "coreTools": [
+    {
+      "id": "tool_shortener",
+      "name": "URL Shortener",
+      "path": "/shortener",
+      "status": "Active",
+      "description": "The flagship tool. Converts long URLs into short, branded links with built-in tracking.",
+      "features": [
+        "Custom Aliases: Users can define specific paths (e.g., /my-brand).",
+        "Instant Redirects: Uses 301/302 status codes for SEO optimization.",
+        "Link Editing: Premium users can change the destination URL after creation.",
+        "Deactivation: Temporarily disable links without deleting them.",
+        "UTM Builder: Auto-append UTM parameters for marketing campaigns."
+      ],
+      "technicalSpecs": {
+        "aliasLimit": "3-50 characters",
+        "allowedChars": "Alphanumeric and hyphens (-)",
+        "collisionCheck": "Real-time database check to ensure unique aliases."
+      }
+    },
+    {
+      "id": "tool_qr_gen",
+      "name": "QR Code Generator",
+      "path": "/qr-generator",
+      "status": "Active",
+      "description": "Enterprise-grade QR code creation suite supporting static and dynamic codes.",
+      "supportedTypes": [
+        { "type": "URL", "fields": ["Website Link"] },
+        { "type": "Text", "fields": ["Message Content"] },
+        { "type": "WiFi", "fields": ["SSID (Network Name)", "Password", "Encryption (WPA/WPA2/WEP)"] },
+        { "type": "vCard", "fields": ["Full Name", "Phone", "Email", "Organization", "Website", "Address"] },
+        { "type": "Email", "fields": ["Recipient", "Subject", "Body"] },
+        { "type": "SMS", "fields": ["Phone Number", "Message"] },
+        { "type": "WhatsApp", "fields": ["Phone Number", "Pre-filled Text"] },
+        { "type": "UPI", "fields": ["VPA (UPI ID)", "Amount", "Note"] }
+      ],
+      "customizationOptions": {
+        "colors": ["Foreground (Dots)", "Background", "Eye Color"],
+        "logo": "Upload custom PNG/JPG logo (Max 2MB)",
+        "quality": ["Low", "Medium", "High", "Vector (SVG)"]
+      }
+    },
+    {
+      "id": "tool_qr_scan",
+      "name": "QR Code Scanner",
+      "path": "/qr-scanner",
+      "status": "Active",
+      "description": "Privacy-focused web scanner running entirely in the browser via WebAssembly.",
+      "methods": ["Webcam Stream", "Image File Upload"],
+      "engine": "Hybrid (html5-qrcode + jsQR fallback)",
+      "privacyNote": "No images are uploaded to the server; processing happens locally on the client device."
+    }
+  ],
+  "accountsAndTiers": {
+    "overview": "Tiered access system ensuring fair usage and premium benefits.",
+    "tiers": [
+      {
+        "id": "guest",
+        "name": "Anonymous",
+        "price": "Free",
+        "limits": {
+          "linkExpiry": "24 Hours",
+          "dailyLinks": 10,
+          "analytics": "None",
+          "ads": "Yes"
+        }
+      },
+      {
+        "id": "free_user",
+        "name": "Registered Free",
+        "price": "Free",
+        "limits": {
+          "linkExpiry": "7 Days",
+          "dailyLinks": 50,
+          "analytics": "Basic (Click Count)",
+          "ads": "Minimal"
+        }
+      },
+      {
+        "id": "premium_user",
+        "name": "Premium",
+        "price": "Paid (One-time)",
+        "limits": {
+          "linkExpiry": "1 Year (Renewable)",
+          "dailyLinks": "Unlimited (Fair Use)",
+          "analytics": "Advanced (Geo, Device, Referrer, Time)",
+          "ads": "None"
+        }
+      }
+    ]
+  },
+  "pricing": {
+    "currency": "INR (₹)",
+    "paymentGateway": "Razorpay (Secure & PCI-DSS Compliant)",
+    "refundPolicy": "Strictly Non-Refundable. All sales are final due to the digital nature of the product.",
+    "plans": [
+      {
+        "id": "plan_monthly",
+        "name": "Starter Pack",
+        "cost": 50,
+        "duration": "1 Month",
+        "credits": 200
+      },
+      {
+        "id": "plan_half_yearly",
+        "name": "Growth Pack",
+        "cost": 100,
+        "duration": "6 Months",
+        "credits": 500,
+        "tag": "Popular"
+      },
+      {
+        "id": "plan_yearly",
+        "name": "Pro Pack",
+        "cost": 500,
+        "duration": "1 Year",
+        "credits": 2500,
+        "tag": "Best Value"
+      }
+    ],
+    "gstInfo": "Prices are inclusive of taxes where applicable. Invoices are emailed automatically."
+  },
+  "developerApi": {
+    "status": "Live",
+    "baseUrl": "https://qlynk.vercel.app/api/v1",
+    "authentication": "Bearer Token (Header: Authorization: Bearer <API_KEY>)",
+    "endpoints": [
+      {
+        "method": "POST",
+        "path": "/shorten",
+        "description": "Create a new short link.",
+        "parameters": {
+          "url": "Target URL (Required)",
+          "alias": "Custom alias (Optional)"
+        }
+      },
+      {
+        "method": "GET",
+        "path": "/stats/:alias",
+        "description": "Get analytics for a specific link."
+      },
+      {
+        "method": "POST",
+        "path": "/qr",
+        "description": "Generate a QR code image (Base64/Buffer)."
+      }
+    ],
+    "errorCodes": {
+      "400": "Bad Request (Missing parameters)",
+      "401": "Unauthorized (Invalid API Key)",
+      "403": "Forbidden (Quota Exceeded)",
+      "404": "Resource Not Found",
+      "429": "Too Many Requests (Rate Limit Hit)",
+      "500": "Internal Server Error"
+    },
+    "rateLimits": {
+      "free": "100 requests/day",
+      "premium": "10,000+ requests/day"
+    }
+  },
+  "troubleshooting": {
+    "links": {
+      "issue_404": "If a link shows 404, it has likely expired or been deleted by the owner.",
+      "issue_slow": "Check your internet connection. QuickLink runs on edge servers for max speed.",
+      "issue_flagged": "Links to phishing/malware sites are automatically banned."
+    },
+    "payments": {
+      "issue_failed": "If payment fails but money is deducted, it will be auto-refunded by the bank in 5-7 days.",
+      "issue_no_credits": "Credits usually reflect instantly. If not, log out and log back in."
+    },
+    "login": {
+      "issue_forgot_pass": "Use the 'Forgot Password' link on the login page to reset via email.",
+      "issue_otp": "Check your Spam/Junk folder for the 2FA code."
+    }
+  },
+  "securityFeatures": {
+    "dataEncryption": "All sensitive user data (passwords, tokens) is hashed using bcrypt before storage.",
+    "twoFactorAuth": "Optional TOTP-based 2FA available for all accounts.",
+    "ddosProtection": "Cloudflare & Vercel Edge Firewall integration.",
+    "linkScanning": "Integration with Google Safe Browsing API to detect malicious URLs."
+  },
+  "legalHub": {
+    "privacyPolicy": {
+      "summary": "We collect minimal data (email, name) solely for account management. We do not sell data to third parties.",
+      "cookies": "We use cookies for session management and analytics."
+    },
+    "termsOfService": {
+      "summary": "Users must not use QuickLink for illegal activities. We reserve the right to terminate accounts violating our policies.",
+      "jurisdiction": "All legal matters are subject to the jurisdiction of Dharmanagar, Tripura courts."
+    }
+  },
+  "community": {
+    "blog": "A platform for users to share tech stories. Posts are moderated before publishing.",
+    "chat": "QuickChat allows secure, private messaging between users. End-to-end encryption is planned for v3.0."
+  },
+  "roadmap": {
+    "q4_2025": ["Release of Official Mobile App", "Dark Mode V2", "Team Collaboration Features"],
+    "q1_2026": ["Enterprise SSO", "Custom Domain Support (White Labeling)"],
+    "longTerm": ["AI-powered link predictions", "Blockchain-based immutable links"]
+  },
+  "founderDetails": {
+    "fullBio": "Deep Dey is not just a developer; he is a visionary student balancing the rigors of JEE preparation with professional-grade software engineering. Hailing from Tripura, he aims to bring world-class tech tools to the Indian ecosystem.",
+    "inspiration": "Driven by the lack of free, high-quality developer tools, Deep decided to build his own ecosystem.",
+    "dailyRoutine": "Wakes up at 5 AM for study livestreams, codes during breaks, and manages QuickLink operations on weekends.",
+    "messageToUsers": "Use QuickLink to simplify your digital life. I built this for you."
+  }
+}

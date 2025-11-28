@@ -1,0 +1,1193 @@
+# 2️⃣ Initialize git (agar pehle se .git folder hai, yeh ignore ho jaayega)
+
+git init
+
+
+
+# 3️⃣ Add remote repository
+
+git remote add origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+
+git remote set-url origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+
+
+
+# 4️⃣ Add all project files
+
+git add .
+
+
+
+# 5️⃣ Commit with a message
+
+git commit -m "All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||"  
+
+
+
+# 6️⃣ Rename branch from master → main (so GitHub accepts it)
+
+git branch -M main
+
+
+
+# 7️⃣ Push to GitHub (force push for overwrite)
+
+git push origin main --force
+
+---------------------
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)># 2️⃣ Initialize git (agar pehle se .git folder hai, yeh ignore ho jaayega)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git init
+Initialized empty Git repository in C:/Users/pujad/Downloads/Day 60 Griends/quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)/.git/
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)># 3️⃣ Add remote repository
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git remote add origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git remote set-url origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)># 4️⃣ Add all project files
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git add .
+warning: in the working copy of '.github/ABOUT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.github/FUNDING.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FILE INFORMATION.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'INFORMATION - HOW TO PUSH.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'INSTRUCTION.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SECURITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/admin.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/auth.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/blog.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/history.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/lib/mongodb.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/payments.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/pricing.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/shop.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/status.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/support.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/urls.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/users.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/old shortner bala file.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/st.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/About.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdBlockerModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdComponent.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiAccessPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiSubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AuthModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BackToTopButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCommentSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePost.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogUserBadge.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CancellationPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ContactPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CookiesPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CopyrightPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CustomCursor.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Dashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DecodedQrResult.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DeleteExpiredUrlsButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DomainConfigGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DonationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/EmailVerificationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FeaturesPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Footer.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FullScreenLoader.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/GreetingPopup.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Header.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HistoryTable.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUse.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LandingPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Legal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LinkHistory.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LiveActivityDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileMenu.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileNavButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotFoundPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationCreator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPermissionPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/OwnerDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PricingManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PricingPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PrivacyPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProfileSettings.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeGenerator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrGeneratorPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QuickLinkAI.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RecentLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RedirectPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ResetPasswordPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ScannerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShareButtons.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPaymentModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShortenerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SocialLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/StatusPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionStatus.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TermsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketConversation.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TimeLeft.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ToolSelectionPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TwoFactorAuthModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlShortener.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlStats.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserDetailsFetcher.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserProfileModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Watermark.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Wiki.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ChatPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ChatSettingsModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ConversationList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/MessageWindow.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ApiFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/BlogFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ChatFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/DashboardFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/FounderFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/NotificationsFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/QrGeneratorFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/QrScannerFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/SecurityFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ShopFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ShortenerFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/StatusFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/SupportFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/VisionFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/icons/IconComponents.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/AuthContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/BlogContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/QrContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/UrlContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'faqData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/ads.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/animated globe.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/chat-bg.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.css.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/quicklink-logo.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A Ã°ÂÂ©Â·/ss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/qrParser.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/time.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/userHelper.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vercel.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)># 5️⃣ Commit with a message
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6> git commit -m "All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||  ||/\|| 18/11/2025 | 15:35:65pm | |||/\||| 18/11/2025 | 17:51:65pm|||| ||||| // 19/11/2025 \/ 11:32:65pm||"
+[master (root-commit) e637681] All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||  ||/\|| 18/11/2025 | 15:35:65pm | |||/\||| 18/11/2025 | 17:51:65pm|||| ||||| // 19/11/2025 \/ 11:32:65pm||
+ 185 files changed, 27213 insertions(+)
+ create mode 100644 .github/ABOUT.md
+ create mode 100644 .github/FUNDING.yml
+ create mode 100644 .gitignore
+ create mode 100644 App.tsx
+ create mode 100644 FILE INFORMATION.md
+ create mode 100644 INFORMATION - HOW TO PUSH.txt
+ create mode 100644 INSTRUCTION.md
+ create mode 100644 LICENSE.md
+ create mode 100644 README.md
+ create mode 100644 SECURITY.md
+ create mode 100644 UrlContextType
+ create mode 100644 api.ts
+ create mode 100644 api/admin.ts
+ create mode 100644 api/auth.ts
+ create mode 100644 api/blog.ts
+ create mode 100644 api/history.ts
+ create mode 100644 api/lib/mongodb.ts
+ create mode 100644 api/payments.ts
+ create mode 100644 api/pricing.txt
+ create mode 100644 api/shop.ts
+ create mode 100644 api/status.ts
+ create mode 100644 api/support.ts
+ create mode 100644 api/urls.ts
+ create mode 100644 api/users.ts
+ create mode 100644 api/v1/old shortner bala file.txt
+ create mode 100644 api/v1/st.ts
+ create mode 100644 components/About.tsx
+ create mode 100644 components/AboutBlog.tsx
+ create mode 100644 components/AboutDashboard.tsx
+ create mode 100644 components/AboutFaq.tsx
+ create mode 100644 components/AboutPage.tsx
+ create mode 100644 components/AboutQr.tsx
+ create mode 100644 components/AboutScanner.tsx
+ create mode 100644 components/AdBlockerModal.tsx
+ create mode 100644 components/AdComponent.tsx
+ create mode 100644 components/ApiAccessPage.tsx
+ create mode 100644 components/ApiSubscriptionModal.tsx
+ create mode 100644 components/AuthModal.tsx
+ create mode 100644 components/BackToTopButton.tsx
+ create mode 100644 components/BlogCommentSection.tsx
+ create mode 100644 components/BlogCreatePage.tsx
+ create mode 100644 components/BlogCreatePost.tsx
+ create mode 100644 components/BlogPage.tsx
+ create mode 100644 components/BlogPostItem.tsx
+ create mode 100644 components/BlogPostPage.tsx
+ create mode 100644 components/BlogUserBadge.tsx
+ create mode 100644 components/CancellationPolicyPage.tsx
+ create mode 100644 components/ContactPage.tsx
+ create mode 100644 components/CookiesPolicyPage.tsx
+ create mode 100644 components/CopyrightPage.tsx
+ create mode 100644 components/CouponInput.tsx
+ create mode 100644 components/CouponManager.tsx
+ create mode 100644 components/CustomCursor.tsx
+ create mode 100644 components/Dashboard.tsx
+ create mode 100644 components/DecodedQrResult.tsx
+ create mode 100644 components/DeleteExpiredUrlsButton.tsx
+ create mode 100644 components/DomainConfigGuide.tsx
+ create mode 100644 components/DonationPage.tsx
+ create mode 100644 components/EmailVerificationPage.tsx
+ create mode 100644 components/FaqItem.tsx
+ create mode 100644 components/FaqPage.tsx
+ create mode 100644 components/FeaturesPage.tsx
+ create mode 100644 components/Footer.tsx
+ create mode 100644 components/FullScreenLoader.tsx
+ create mode 100644 components/GreetingPopup.tsx
+ create mode 100644 components/Header.tsx
+ create mode 100644 components/HistoryTable.tsx
+ create mode 100644 components/HowToUse.tsx
+ create mode 100644 components/HowToUseBlog.tsx
+ create mode 100644 components/HowToUseDashboard.tsx
+ create mode 100644 components/HowToUseFaq.tsx
+ create mode 100644 components/HowToUseQr.tsx
+ create mode 100644 components/HowToUseScanner.tsx
+ create mode 100644 components/LandingPage.tsx
+ create mode 100644 components/Legal.tsx
+ create mode 100644 components/LinkHistory.tsx
+ create mode 100644 components/LiveActivityDashboard.tsx
+ create mode 100644 components/MainPage.tsx
+ create mode 100644 components/MobileBottomNav.tsx
+ create mode 100644 components/MobileMenu.tsx
+ create mode 100644 components/MobileNavButton.tsx
+ create mode 100644 components/NotFoundPage.tsx
+ create mode 100644 components/NotificationCreator.tsx
+ create mode 100644 components/NotificationPermissionPrompt.tsx
+ create mode 100644 components/NotificationPrompt.tsx
+ create mode 100644 components/NotificationsPage.tsx
+ create mode 100644 components/OwnerDashboard.tsx
+ create mode 100644 components/PaymentModal.tsx
+ create mode 100644 components/PricingManager.tsx
+ create mode 100644 components/PricingPage.tsx
+ create mode 100644 components/PrivacyPolicyPage.tsx
+ create mode 100644 components/ProductCard.tsx
+ create mode 100644 components/ProductManager.tsx
+ create mode 100644 components/ProfileSettings.tsx
+ create mode 100644 components/QrCodeGenerator.tsx
+ create mode 100644 components/QrCodeScanner.tsx
+ create mode 100644 components/QrGeneratorPage.tsx
+ create mode 100644 components/QuickChat.tsx
+ create mode 100644 components/QuickLinkAI.tsx
+ create mode 100644 components/RecentLinks.tsx
+ create mode 100644 components/RedirectPage.tsx
+ create mode 100644 components/ResetPasswordPage.tsx
+ create mode 100644 components/ScannerPage.tsx
+ create mode 100644 components/ShareButtons.tsx
+ create mode 100644 components/ShopPage.tsx
+ create mode 100644 components/ShopPaymentModal.tsx
+ create mode 100644 components/ShortenerPage.tsx
+ create mode 100644 components/SocialLinks.tsx
+ create mode 100644 components/StatusPage.tsx
+ create mode 100644 components/SubscriptionModal.tsx
+ create mode 100644 components/SubscriptionStatus.tsx
+ create mode 100644 components/TermsPage.tsx
+ create mode 100644 components/TicketConversation.tsx
+ create mode 100644 components/TicketModal.tsx
+ create mode 100644 components/TimeLeft.tsx
+ create mode 100644 components/ToolSelectionPage.tsx
+ create mode 100644 components/TwoFactorAuthModal.tsx
+ create mode 100644 components/UrlShortener.tsx
+ create mode 100644 components/UrlStats.tsx
+ create mode 100644 components/UserDetailsFetcher.tsx
+ create mode 100644 components/UserProfileModal.tsx
+ create mode 100644 components/Watermark.tsx
+ create mode 100644 components/Wiki.tsx
+ create mode 100644 components/chat/ChatPage.tsx
+ create mode 100644 components/chat/ChatSettingsModal.tsx
+ create mode 100644 components/chat/ConversationList.tsx
+ create mode 100644 components/chat/MessageWindow.tsx
+ create mode 100644 components/features/ApiFeaturePage.tsx
+ create mode 100644 components/features/BlogFeaturePage.tsx
+ create mode 100644 components/features/ChatFeaturePage.tsx
+ create mode 100644 components/features/DashboardFeaturePage.tsx
+ create mode 100644 components/features/FounderFeaturePage.tsx
+ create mode 100644 components/features/NotificationsFeaturePage.tsx
+ create mode 100644 components/features/QrGeneratorFeaturePage.tsx
+ create mode 100644 components/features/QrScannerFeaturePage.tsx
+ create mode 100644 components/features/SecurityFeaturePage.tsx
+ create mode 100644 components/features/ShopFeaturePage.tsx
+ create mode 100644 components/features/ShortenerFeaturePage.tsx
+ create mode 100644 components/features/StatusFeaturePage.tsx
+ create mode 100644 components/features/SupportFeaturePage.tsx
+ create mode 100644 components/features/VisionFeaturePage.tsx
+ create mode 100644 components/icons/IconComponents.tsx
+ create mode 100644 contexts/AuthContext.tsx
+ create mode 100644 contexts/BlogContext.tsx
+ create mode 100644 contexts/QrContext.tsx
+ create mode 100644 contexts/UrlContext.tsx
+ create mode 100644 faqData.ts
+ create mode 100644 index.html
+ create mode 100644 index.tsx
+ create mode 100644 metadata.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/Diwali2025.mp3
+ create mode 100644 public/ads.txt
+ create mode 100644 public/animated globe.svg
+ create mode 100644 public/background1.mp3
+ create mode 100644 public/background2.mp3
+ create mode 100644 public/background3.mp3
+ create mode 100644 public/background4.mp3
+ create mode 100644 public/chat-bg.svg
+ create mode 100644 public/index.css.txt
+ create mode 100644 public/macbook.jpg
+ create mode 100644 public/quicklink-logo.jpg
+ create mode 100644 public/quicklink-logo.svg
+ create mode 100644 public/robots.txt
+ create mode 100644 public/screenshot1.jpg
+ create mode 100644 public/screenshot2.jpg
+ create mode 100644 public/screenshot3.jpg
+ create mode 100644 public/screenshot4.jpg
+ create mode 100644 public/shortened_urls.json
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/users.json
+ create mode 100644 public/wiki-images/Deep_Dey_IITK_Image1.jpg
+ create mode 100644 public/wiki-images/Deep_Dey_portrait_2025.png
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \303\203\302\260\303\202\302\237\303\202\302\251\303\202\302\267/570455853-18043030565686591-1101023936906092118-n.jpg"
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \303\203\302\260\303\202\302\237\303\202\302\251\303\202\302\267/ss"
+ create mode 100644 public/wiki-images/Quicklink-logo.png
+ create mode 100644 public/wiki-images/background.mp3
+ create mode 100644 tsconfig.json
+ create mode 100644 types.ts
+ create mode 100644 utils/qrParser.ts
+ create mode 100644 utils/time.ts
+ create mode 100644 utils/userHelper.ts
+ create mode 100644 vercel.json
+ create mode 100644 vite.config.ts
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git branch -M main
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)># 7️⃣ Push to GitHub (force push for overwrite)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>git push origin main --force
+Enumerating objects: 198, done.
+Counting objects: 100% (198/198), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (188/188), done.
+Writing objects: 100% (198/198), 143.05 MiB | 3.86 MiB/s, done.
+Total 198 (delta 38), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (38/38), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File public/background1.mp3 is 73.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File public/background2.mp3 is 53.91 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+ + e5c6d01...e637681 main -> main (forced update)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (6)>
+
+
+---------------------
+
+
+GIT Push LOGS: 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 2️⃣ Initialize git (agar pehle se .git folder hai, yeh ignore ho jaayega)
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git init
+Initialized empty Git repository in C:/Users/pujad/Downloads/Day 60 Griends/QuickLink-URL-Shortener-main (1)/QuickLink-URL-Shortener-main/.git/
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 3️⃣ Add remote repository
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git remote add origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git remote set-url origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 4️⃣ Add all project files
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git add .
+warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.github/ABOUT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.github/FUNDING.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SECURITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/admin.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/auth.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/blog.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/history.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/lib/mongodb.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/payments.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/pricing.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/shop.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/status.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/support.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/urls.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/users.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/old shortner bala file.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/st.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/About.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdBlockerModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdComponent.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiAccessPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiSubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AuthModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BackToTopButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCommentSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePost.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogUserBadge.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CancellationPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ContactPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CookiesPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CopyrightPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CustomCursor.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Dashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DecodedQrResult.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DeleteExpiredUrlsButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DomainConfigGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DonationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/EmailVerificationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Footer.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FullScreenLoader.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/GreetingPopup.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Header.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HistoryTable.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUse.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LandingPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Legal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LinkHistory.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LiveActivityDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileMenu.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileNavButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotFoundPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationCreator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPermissionPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/OwnerDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PricingManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PrivacyPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProfileSettings.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeGenerator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrGeneratorPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RecentLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RedirectPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ResetPasswordPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ScannerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShareButtons.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPaymentModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShortenerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SocialLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/StatusPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionStatus.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TermsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketConversation.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TimeLeft.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ToolSelectionPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlShortener.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlStats.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserDetailsFetcher.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserProfileModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Watermark.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Wiki.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/icons/IconComponents.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/AuthContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/BlogContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/QrContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/UrlContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'faqData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/ads.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/animated globe.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.css.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/quicklink-logo.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A 🩷/ss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/qrParser.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/time.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/userHelper.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vercel.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 5️⃣ Commit with a message
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git commit -m "All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||"
+[master (root-commit) 5b9c5c1] All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||
+ 160 files changed, 22022 insertions(+)
+ create mode 100644 .env.example
+ create mode 100644 .github/ABOUT.md
+ create mode 100644 .github/FUNDING.yml
+ create mode 100644 .gitignore
+ create mode 100644 App.tsx
+ create mode 100644 INFORMATION - HOW TO PUSH.txt
+ create mode 100644 LICENSE.md
+ create mode 100644 README.md
+ create mode 100644 SECURITY.md
+ create mode 100644 UrlContextType
+ create mode 100644 api.ts
+ create mode 100644 api/admin.ts
+ create mode 100644 api/auth.ts
+ create mode 100644 api/blog.ts
+ create mode 100644 api/history.ts
+ create mode 100644 api/lib/mongodb.ts
+ create mode 100644 api/payments.ts
+ create mode 100644 api/pricing.txt
+ create mode 100644 api/shop.ts
+ create mode 100644 api/status.ts
+ create mode 100644 api/support.ts
+ create mode 100644 api/urls.ts
+ create mode 100644 api/users.ts
+ create mode 100644 api/v1/old shortner bala file.txt
+ create mode 100644 api/v1/st.ts
+ create mode 100644 components/About.tsx
+ create mode 100644 components/AboutBlog.tsx
+ create mode 100644 components/AboutDashboard.tsx
+ create mode 100644 components/AboutFaq.tsx
+ create mode 100644 components/AboutPage.tsx
+ create mode 100644 components/AboutQr.tsx
+ create mode 100644 components/AboutScanner.tsx
+ create mode 100644 components/AdBlockerModal.tsx
+ create mode 100644 components/AdComponent.tsx
+ create mode 100644 components/ApiAccessPage.tsx
+ create mode 100644 components/ApiSubscriptionModal.tsx
+ create mode 100644 components/AuthModal.tsx
+ create mode 100644 components/BackToTopButton.tsx
+ create mode 100644 components/BlogCommentSection.tsx
+ create mode 100644 components/BlogCreatePage.tsx
+ create mode 100644 components/BlogCreatePost.tsx
+ create mode 100644 components/BlogPage.tsx
+ create mode 100644 components/BlogPostItem.tsx
+ create mode 100644 components/BlogPostPage.tsx
+ create mode 100644 components/BlogUserBadge.tsx
+ create mode 100644 components/CancellationPolicyPage.tsx
+ create mode 100644 components/ContactPage.tsx
+ create mode 100644 components/CookiesPolicyPage.tsx
+ create mode 100644 components/CopyrightPage.tsx
+ create mode 100644 components/CouponInput.tsx
+ create mode 100644 components/CouponManager.tsx
+ create mode 100644 components/CustomCursor.tsx
+ create mode 100644 components/Dashboard.tsx
+ create mode 100644 components/DecodedQrResult.tsx
+ create mode 100644 components/DeleteExpiredUrlsButton.tsx
+ create mode 100644 components/DomainConfigGuide.tsx
+ create mode 100644 components/DonationPage.tsx
+ create mode 100644 components/EmailVerificationPage.tsx
+ create mode 100644 components/FaqItem.tsx
+ create mode 100644 components/FaqPage.tsx
+ create mode 100644 components/Footer.tsx
+ create mode 100644 components/FullScreenLoader.tsx
+ create mode 100644 components/GreetingPopup.tsx
+ create mode 100644 components/Header.tsx
+ create mode 100644 components/HistoryTable.tsx
+ create mode 100644 components/HowToUse.tsx
+ create mode 100644 components/HowToUseBlog.tsx
+ create mode 100644 components/HowToUseDashboard.tsx
+ create mode 100644 components/HowToUseFaq.tsx
+ create mode 100644 components/HowToUseQr.tsx
+ create mode 100644 components/HowToUseScanner.tsx
+ create mode 100644 components/LandingPage.tsx
+ create mode 100644 components/Legal.tsx
+ create mode 100644 components/LinkHistory.tsx
+ create mode 100644 components/LiveActivityDashboard.tsx
+ create mode 100644 components/MainPage.tsx
+ create mode 100644 components/MobileBottomNav.tsx
+ create mode 100644 components/MobileMenu.tsx
+ create mode 100644 components/MobileNavButton.tsx
+ create mode 100644 components/NotFoundPage.tsx
+ create mode 100644 components/NotificationCreator.tsx
+ create mode 100644 components/NotificationPermissionPrompt.tsx
+ create mode 100644 components/NotificationPrompt.tsx
+ create mode 100644 components/NotificationsPage.tsx
+ create mode 100644 components/OwnerDashboard.tsx
+ create mode 100644 components/PaymentModal.tsx
+ create mode 100644 components/PricingManager.tsx
+ create mode 100644 components/PrivacyPolicyPage.tsx
+ create mode 100644 components/ProductCard.tsx
+ create mode 100644 components/ProductManager.tsx
+ create mode 100644 components/ProfileSettings.tsx
+ create mode 100644 components/QrCodeGenerator.tsx
+ create mode 100644 components/QrCodeScanner.tsx
+ create mode 100644 components/QrGeneratorPage.tsx
+ create mode 100644 components/RecentLinks.tsx
+ create mode 100644 components/RedirectPage.tsx
+ create mode 100644 components/ResetPasswordPage.tsx
+ create mode 100644 components/ScannerPage.tsx
+ create mode 100644 components/ShareButtons.tsx
+ create mode 100644 components/ShopPage.tsx
+ create mode 100644 components/ShopPaymentModal.tsx
+ create mode 100644 components/ShortenerPage.tsx
+ create mode 100644 components/SocialLinks.tsx
+ create mode 100644 components/StatusPage.tsx
+ create mode 100644 components/SubscriptionModal.tsx
+ create mode 100644 components/SubscriptionStatus.tsx
+ create mode 100644 components/TermsPage.tsx
+ create mode 100644 components/TicketConversation.tsx
+ create mode 100644 components/TicketModal.tsx
+ create mode 100644 components/TimeLeft.tsx
+ create mode 100644 components/ToolSelectionPage.tsx
+ create mode 100644 components/UrlShortener.tsx
+ create mode 100644 components/UrlStats.tsx
+ create mode 100644 components/UserDetailsFetcher.tsx
+ create mode 100644 components/UserProfileModal.tsx
+ create mode 100644 components/Watermark.tsx
+ create mode 100644 components/Wiki.tsx
+ create mode 100644 components/icons/IconComponents.tsx
+ create mode 100644 contexts/AuthContext.tsx
+ create mode 100644 contexts/BlogContext.tsx
+ create mode 100644 contexts/QrContext.tsx
+ create mode 100644 contexts/UrlContext.tsx
+ create mode 100644 faqData.ts
+ create mode 100644 index.html
+ create mode 100644 index.tsx
+ create mode 100644 metadata.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/Diwali2025.mp3
+ create mode 100644 public/ads.txt
+ create mode 100644 public/animated globe.svg
+ create mode 100644 public/background1.mp3
+ create mode 100644 public/background2.mp3
+ create mode 100644 public/background3.mp3
+ create mode 100644 public/background4.mp3
+ create mode 100644 public/index.css.txt
+ create mode 100644 public/macbook.jpg
+ create mode 100644 public/quicklink-logo.jpg
+ create mode 100644 public/quicklink-logo.svg
+ create mode 100644 public/robots.txt
+ create mode 100644 public/screenshot1.jpg
+ create mode 100644 public/screenshot2.jpg
+ create mode 100644 public/screenshot3.jpg
+ create mode 100644 public/screenshot4.jpg
+ create mode 100644 public/shortened_urls.json
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/users.json
+ create mode 100644 public/wiki-images/Deep_Dey_IITK_Image1.jpg
+ create mode 100644 public/wiki-images/Deep_Dey_portrait_2025.png
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \360\237\251\267/570455853-18043030565686591-1101023936906092118-n.jpg"
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \360\237\251\267/ss"
+ create mode 100644 public/wiki-images/Quicklink-logo.png
+ create mode 100644 public/wiki-images/background.mp3
+ create mode 100644 tsconfig.json
+ create mode 100644 types.ts
+ create mode 100644 utils/qrParser.ts
+ create mode 100644 utils/time.ts
+ create mode 100644 utils/userHelper.ts
+ create mode 100644 vercel.json
+ create mode 100644 vite.config.ts
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 6️⃣ Rename branch from master → main (so GitHub accepts it)
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git branch -M main
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> # 7️⃣ Push to GitHub (force push for overwrite)
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main> git push origin main --force
+Enumerating objects: 172, done.
+Counting objects: 100% (172/172), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (162/162), done.
+Writing objects: 100% (172/172), 142.99 MiB | 891.00 KiB/s, done.
+Total 172 (delta 28), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (28/28), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File public/background1.mp3 is 73.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File public/background2.mp3 is 53.91 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+ + 12b7938...5b9c5c1 main -> main (forced update)
+PS C:\Users\pujad\Downloads\Day 60 Griends\QuickLink-URL-Shortener-main (1)\QuickLink-URL-Shortener-main>
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)># 2️⃣ Initialize git (agar pehle se .git folder hai, yeh ignore ho jaayega)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git init
+Initialized empty Git repository in C:/Users/pujad/Downloads/Day 60 Griends/quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)/.git/
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)># 3️⃣ Add remote repository
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git remote add origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git remote set-url origin https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)># 4️⃣ Add all project files
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git add .
+warning: in the working copy of '.github/ABOUT.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.github/FUNDING.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FILE INFORMATION.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'INFORMATION - HOW TO PUSH.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'INSTRUCTION.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SECURITY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/admin.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/auth.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/blog.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/history.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/lib/mongodb.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/payments.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/pricing.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/shop.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/status.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/support.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/urls.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/users.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/old shortner bala file.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'api/v1/st.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/About.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AboutScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdBlockerModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AdComponent.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiAccessPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ApiSubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/AuthModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BackToTopButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCommentSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogCreatePost.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogPostPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/BlogUserBadge.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CancellationPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ContactPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CookiesPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CopyrightPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CouponManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/CustomCursor.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Dashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DecodedQrResult.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DeleteExpiredUrlsButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DomainConfigGuide.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/DonationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/EmailVerificationPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FaqPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FeaturesPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Footer.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/FullScreenLoader.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/GreetingPopup.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Header.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HistoryTable.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUse.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseBlog.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseFaq.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseQr.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/HowToUseScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LandingPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Legal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LinkHistory.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/LiveActivityDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileMenu.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/MobileNavButton.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotFoundPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationCreator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPermissionPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationPrompt.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/NotificationsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/OwnerDashboard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PricingManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PricingPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/PrivacyPolicyPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProductManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ProfileSettings.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeGenerator.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrCodeScanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/QrGeneratorPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RecentLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/RedirectPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ResetPasswordPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ScannerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShareButtons.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShopPaymentModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ShortenerPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SocialLinks.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/StatusPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/SubscriptionStatus.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TermsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketConversation.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TicketModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TimeLeft.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/ToolSelectionPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/TwoFactorAuthModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlShortener.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UrlStats.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserDetailsFetcher.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/UserProfileModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Watermark.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/Wiki.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ChatPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ChatSettingsModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/ConversationList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/chat/MessageWindow.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ApiFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/BlogFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ChatFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/DashboardFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/FounderFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/NotificationsFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/QrGeneratorFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/QrScannerFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/SecurityFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ShopFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/ShortenerFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/StatusFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/SupportFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/features/VisionFeaturePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/icons/IconComponents.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/AuthContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/BlogContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/QrContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'contexts/UrlContext.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'faqData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/ads.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/animated globe.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.css.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/quicklink-logo.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A 🩷/ss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/qrParser.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/time.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'utils/userHelper.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vercel.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)># 5️⃣ Commit with a message
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3> git commit -m "All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||  ||/\|| 18/11/2025 | 15:35:65pm | |||/\||| 18/11/2025 | 17:51:65pm||||"
+[master (root-commit) 4d4f818] All Things Fixes and some new features and protection added, UI fixed for phone users | 16:2865pm || 09/11/2025 ||\/|| bho mp3 files del ho gya tho re push -- || 17/11/2025 | 21:34:65pm ||  ||/\|| 18/11/2025 | 15:35:65pm | |||/\||| 18/11/2025 | 17:51:65pm||||
+ 183 files changed, 26111 insertions(+)
+ create mode 100644 .github/ABOUT.md
+ create mode 100644 .github/FUNDING.yml
+ create mode 100644 .gitignore
+ create mode 100644 App.tsx
+ create mode 100644 FILE INFORMATION.md
+ create mode 100644 INFORMATION - HOW TO PUSH.txt
+ create mode 100644 INSTRUCTION.md
+ create mode 100644 LICENSE.md
+ create mode 100644 README.md
+ create mode 100644 SECURITY.md
+ create mode 100644 UrlContextType
+ create mode 100644 api.ts
+ create mode 100644 api/admin.ts
+ create mode 100644 api/auth.ts
+ create mode 100644 api/blog.ts
+ create mode 100644 api/history.ts
+ create mode 100644 api/lib/mongodb.ts
+ create mode 100644 api/payments.ts
+ create mode 100644 api/pricing.txt
+ create mode 100644 api/shop.ts
+ create mode 100644 api/status.ts
+ create mode 100644 api/support.ts
+ create mode 100644 api/urls.ts
+ create mode 100644 api/users.ts
+ create mode 100644 api/v1/old shortner bala file.txt
+ create mode 100644 api/v1/st.ts
+ create mode 100644 components/About.tsx
+ create mode 100644 components/AboutBlog.tsx
+ create mode 100644 components/AboutDashboard.tsx
+ create mode 100644 components/AboutFaq.tsx
+ create mode 100644 components/AboutPage.tsx
+ create mode 100644 components/AboutQr.tsx
+ create mode 100644 components/AboutScanner.tsx
+ create mode 100644 components/AdBlockerModal.tsx
+ create mode 100644 components/AdComponent.tsx
+ create mode 100644 components/ApiAccessPage.tsx
+ create mode 100644 components/ApiSubscriptionModal.tsx
+ create mode 100644 components/AuthModal.tsx
+ create mode 100644 components/BackToTopButton.tsx
+ create mode 100644 components/BlogCommentSection.tsx
+ create mode 100644 components/BlogCreatePage.tsx
+ create mode 100644 components/BlogCreatePost.tsx
+ create mode 100644 components/BlogPage.tsx
+ create mode 100644 components/BlogPostItem.tsx
+ create mode 100644 components/BlogPostPage.tsx
+ create mode 100644 components/BlogUserBadge.tsx
+ create mode 100644 components/CancellationPolicyPage.tsx
+ create mode 100644 components/ContactPage.tsx
+ create mode 100644 components/CookiesPolicyPage.tsx
+ create mode 100644 components/CopyrightPage.tsx
+ create mode 100644 components/CouponInput.tsx
+ create mode 100644 components/CouponManager.tsx
+ create mode 100644 components/CustomCursor.tsx
+ create mode 100644 components/Dashboard.tsx
+ create mode 100644 components/DecodedQrResult.tsx
+ create mode 100644 components/DeleteExpiredUrlsButton.tsx
+ create mode 100644 components/DomainConfigGuide.tsx
+ create mode 100644 components/DonationPage.tsx
+ create mode 100644 components/EmailVerificationPage.tsx
+ create mode 100644 components/FaqItem.tsx
+ create mode 100644 components/FaqPage.tsx
+ create mode 100644 components/FeaturesPage.tsx
+ create mode 100644 components/Footer.tsx
+ create mode 100644 components/FullScreenLoader.tsx
+ create mode 100644 components/GreetingPopup.tsx
+ create mode 100644 components/Header.tsx
+ create mode 100644 components/HistoryTable.tsx
+ create mode 100644 components/HowToUse.tsx
+ create mode 100644 components/HowToUseBlog.tsx
+ create mode 100644 components/HowToUseDashboard.tsx
+ create mode 100644 components/HowToUseFaq.tsx
+ create mode 100644 components/HowToUseQr.tsx
+ create mode 100644 components/HowToUseScanner.tsx
+ create mode 100644 components/LandingPage.tsx
+ create mode 100644 components/Legal.tsx
+ create mode 100644 components/LinkHistory.tsx
+ create mode 100644 components/LiveActivityDashboard.tsx
+ create mode 100644 components/MainPage.tsx
+ create mode 100644 components/MobileBottomNav.tsx
+ create mode 100644 components/MobileMenu.tsx
+ create mode 100644 components/MobileNavButton.tsx
+ create mode 100644 components/NotFoundPage.tsx
+ create mode 100644 components/NotificationCreator.tsx
+ create mode 100644 components/NotificationPermissionPrompt.tsx
+ create mode 100644 components/NotificationPrompt.tsx
+ create mode 100644 components/NotificationsPage.tsx
+ create mode 100644 components/OwnerDashboard.tsx
+ create mode 100644 components/PaymentModal.tsx
+ create mode 100644 components/PricingManager.tsx
+ create mode 100644 components/PricingPage.tsx
+ create mode 100644 components/PrivacyPolicyPage.tsx
+ create mode 100644 components/ProductCard.tsx
+ create mode 100644 components/ProductManager.tsx
+ create mode 100644 components/ProfileSettings.tsx
+ create mode 100644 components/QrCodeGenerator.tsx
+ create mode 100644 components/QrCodeScanner.tsx
+ create mode 100644 components/QrGeneratorPage.tsx
+ create mode 100644 components/QuickChat.tsx
+ create mode 100644 components/RecentLinks.tsx
+ create mode 100644 components/RedirectPage.tsx
+ create mode 100644 components/ResetPasswordPage.tsx
+ create mode 100644 components/ScannerPage.tsx
+ create mode 100644 components/ShareButtons.tsx
+ create mode 100644 components/ShopPage.tsx
+ create mode 100644 components/ShopPaymentModal.tsx
+ create mode 100644 components/ShortenerPage.tsx
+ create mode 100644 components/SocialLinks.tsx
+ create mode 100644 components/StatusPage.tsx
+ create mode 100644 components/SubscriptionModal.tsx
+ create mode 100644 components/SubscriptionStatus.tsx
+ create mode 100644 components/TermsPage.tsx
+ create mode 100644 components/TicketConversation.tsx
+ create mode 100644 components/TicketModal.tsx
+ create mode 100644 components/TimeLeft.tsx
+ create mode 100644 components/ToolSelectionPage.tsx
+ create mode 100644 components/TwoFactorAuthModal.tsx
+ create mode 100644 components/UrlShortener.tsx
+ create mode 100644 components/UrlStats.tsx
+ create mode 100644 components/UserDetailsFetcher.tsx
+ create mode 100644 components/UserProfileModal.tsx
+ create mode 100644 components/Watermark.tsx
+ create mode 100644 components/Wiki.tsx
+ create mode 100644 components/chat/ChatPage.tsx
+ create mode 100644 components/chat/ChatSettingsModal.tsx
+ create mode 100644 components/chat/ConversationList.tsx
+ create mode 100644 components/chat/MessageWindow.tsx
+ create mode 100644 components/features/ApiFeaturePage.tsx
+ create mode 100644 components/features/BlogFeaturePage.tsx
+ create mode 100644 components/features/ChatFeaturePage.tsx
+ create mode 100644 components/features/DashboardFeaturePage.tsx
+ create mode 100644 components/features/FounderFeaturePage.tsx
+ create mode 100644 components/features/NotificationsFeaturePage.tsx
+ create mode 100644 components/features/QrGeneratorFeaturePage.tsx
+ create mode 100644 components/features/QrScannerFeaturePage.tsx
+ create mode 100644 components/features/SecurityFeaturePage.tsx
+ create mode 100644 components/features/ShopFeaturePage.tsx
+ create mode 100644 components/features/ShortenerFeaturePage.tsx
+ create mode 100644 components/features/StatusFeaturePage.tsx
+ create mode 100644 components/features/SupportFeaturePage.tsx
+ create mode 100644 components/features/VisionFeaturePage.tsx
+ create mode 100644 components/icons/IconComponents.tsx
+ create mode 100644 contexts/AuthContext.tsx
+ create mode 100644 contexts/BlogContext.tsx
+ create mode 100644 contexts/QrContext.tsx
+ create mode 100644 contexts/UrlContext.tsx
+ create mode 100644 faqData.ts
+ create mode 100644 index.html
+ create mode 100644 index.tsx
+ create mode 100644 metadata.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/Diwali2025.mp3
+ create mode 100644 public/ads.txt
+ create mode 100644 public/animated globe.svg
+ create mode 100644 public/background1.mp3
+ create mode 100644 public/background2.mp3
+ create mode 100644 public/background3.mp3
+ create mode 100644 public/background4.mp3
+ create mode 100644 public/index.css.txt
+ create mode 100644 public/macbook.jpg
+ create mode 100644 public/quicklink-logo.jpg
+ create mode 100644 public/quicklink-logo.svg
+ create mode 100644 public/robots.txt
+ create mode 100644 public/screenshot1.jpg
+ create mode 100644 public/screenshot2.jpg
+ create mode 100644 public/screenshot3.jpg
+ create mode 100644 public/screenshot4.jpg
+ create mode 100644 public/shortened_urls.json
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/users.json
+ create mode 100644 public/wiki-images/Deep_Dey_IITK_Image1.jpg
+ create mode 100644 public/wiki-images/Deep_Dey_portrait_2025.png
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \360\237\251\267/570455853-18043030565686591-1101023936906092118-n.jpg"
+ create mode 100644 "public/wiki-images/Privet/OG/GYSUDB/HJSBKS/HDBDJSSFD/A \360\237\251\267/ss"
+ create mode 100644 public/wiki-images/Quicklink-logo.png
+ create mode 100644 public/wiki-images/background.mp3
+ create mode 100644 tsconfig.json
+ create mode 100644 types.ts
+ create mode 100644 utils/qrParser.ts
+ create mode 100644 utils/time.ts
+ create mode 100644 utils/userHelper.ts
+ create mode 100644 vercel.json
+ create mode 100644 vite.config.ts
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git branch -M main
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)># 7️⃣ Push to GitHub (force push for overwrite)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>git push origin main --force
+Enumerating objects: 196, done.
+Counting objects: 100% (196/196), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (186/186), done.
+Writing objects: 100% (196/196), 143.04 MiB | 3.73 MiB/s, done.
+Total 196 (delta 37), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (37/37), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File public/background2.mp3 is 53.91 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File public/background1.mp3 is 73.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/deepdeyiitgn/QuickLink-URL-Shortener.git
+ + c52d656...4d4f818 main -> main (forced update)
+PS C:\Users\pujad\Downloads\Day 60 Griends\quicklink---fast-&-secure-url-shortener,-qr-generator-&-api-by-deep-dey (3)>
