@@ -53,6 +53,14 @@
 
 ---
 
+---
+
+<p align="center">
+<a href='https://quicklink.en.uptodown.com/windows' title='Download Quicklink' > <img src='https://stc.utdstc.com/img/mediakit/certified-free.png' alt='Download Quicklink'> </a>
+</p>
+
+---
+
   <img src="public/macbook.jpg" alt="QuickLink Screenshot">
 
 
