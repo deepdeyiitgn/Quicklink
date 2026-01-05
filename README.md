@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-  <a href='https://quicklink.en.uptodown.com/windows' title='Download Quicklink' >
+  <a href='https://qlynk.vercel.app' title='Quicklink - Official Website Link' >
   <img src="https://qlynk.vercel.app/quicklink-logo.svg" alt="QuickLink Logo" width="128" height="128"> </a>
   <h1>QuickLink - URL Shortener, QR Suite, & Community Blog</h1>
   <p>
