@@ -3,7 +3,8 @@
 ---
 
 <div align="center">
-  <img src="https://qlynk.vercel.app/quicklink-logo.svg" alt="QuickLink Logo" width="128" height="128">
+  <a href='https://quicklink.en.uptodown.com/windows' title='Download Quicklink' >
+  <img src="https://qlynk.vercel.app/quicklink-logo.svg" alt="QuickLink Logo" width="128" height="128"> </a>
   <h1>QuickLink - URL Shortener, QR Suite, & Community Blog</h1>
   <p>
     <strong>A modern, high-performance, full-stack web application that provides a suite of powerful tools for the modern web.</strong>
