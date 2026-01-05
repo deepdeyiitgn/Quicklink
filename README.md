@@ -73,7 +73,7 @@
 
   ## 🩷 Download Windows App 
 
-  * We Have Now Our Windows Application for Quicklink 🎉! To Download our Quicklink Please Visit This Page And [Click Try Again Button](https://qlynk.vercel.app/thanks-for-downloading-our-app) To Download Our Application
+  * We Have Now Our Windows Application for Quicklink 🎉! To Download our Quicklink Please Visit This Page And [Click Try Again Button](https://quicklink.en.uptodown.com/windows) To Download Our Application
   
 ---
 
